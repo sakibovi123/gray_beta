@@ -1,0 +1,34 @@
+{
+    "data" : [
+        {
+            "role_name": "Authenticated User",
+            "description": "Authenticated User has limited access for self content only",
+            "id": 1 
+        },
+        {
+            "role_name": "Guest",
+            "description": "Guest has limited access for public pages only",
+            "id": 2
+        },
+        {
+            "role_name": "Employee",
+            "description": "Employee has few access to all features based on permission",
+            "id": 3
+        },
+        {
+            "role_name": "Staff",
+            "description": "Staff has limited access to the features based on permission",
+            "id": 4
+        },
+        {
+            "role_name": "Manager",
+            "description": "Manager has few access to all features and users content based on permission",
+            "id": 5
+        },
+        {
+            "role_name": "Administrator",
+            "description": "Administrator has access to all features and have full access to all users",
+            "id": 6
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "0" : {
+        "title": "Assets Management",
+        "rating": 5,
+        "price": 49,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Assets Management"
+        ],
+        "id": 1
+    },
+    "1" : {
+        "title": "Booking Management",
+        "rating": 4.5,
+        "price": 550,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Booking Management"
+        ],
+        "id": 2
+    },
+    "2" : {
+        "title": "Classified",
+        "rating": 0,
+        "price": 99,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Classified"
+        ],
+        "id": 3
+    },
+    "3" : {
+        "title": "Comparison Management",
+        "rating": 0,
+        "price": 499,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Comparison Management"
+        ],
+        "id": 4
+    },
+    "4" : {
+        "title": "CRM",
+        "rating": 2.5,
+        "price": 199,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "CRM"
+        ],
+        "id": 5
+    },
+    "5" : {
+        "title": "Customer Management",
+        "rating": 3.5,
+        "price": 699,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Customer Management"
+        ],
+        "id": 6
+    },
+    "6" : {
+        "title": "Directory",
+        "rating": 3,
+        "price": 49,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Directory"
+        ],
+        "id": 7
+    },
+    "7" : {
+        "title": "E-commerce",
+        "rating": 2,
+        "price": 1200,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "E-commerce"
+        ],
+        "id": 8
+    },
+    "8" : {
+        "title": "e-Learning",
+        "rating": 5,
+        "price": 70,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "eLearning"
+        ],
+        "id": 9
+    },
+    "9" : {
+        "title": "ERP",
+        "rating": 4,
+        "price": 19,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "ERP"
+        ],
+        "id": 10
+    },
+    "10" : {
+        "title": "Event Management",
+        "rating": 0,
+        "price": 299,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Event Management"
+        ],
+        "id": 11
+    },
+    "11" : {
+        "title": "HR Management",
+        "rating": 1,
+        "price": 29,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "HR Management"
+        ],
+        "id": 12
+    },
+    "12" : {
+        "title": "Job Board",
+        "rating": 4,
+        "price": 299,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Job Board"
+        ],
+        "id": 13
+    },
+    "13" : {
+        "title": "Leads Management",
+        "rating": 4.5,
+        "price": 49,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Leads Management"
+        ],
+        "id": 14
+    },
+    "14" : {
+        "title": "Online Marketing",
+        "rating": 4.5,
+        "price": 250,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Online Marketing"
+        ],
+        "id": 15
+    },
+    "15" : {
+        "title": "Reward Management",
+        "rating": 2.5,
+        "price": 29,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Reward Management"
+        ],
+        "id": 16
+    },
+    "16" : {
+        "title": "Money Management",
+        "rating": 5,
+        "price": 49,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Money Management"
+        ],
+        "id": 17
+    },
+    "17" : {
+        "title": "POS (Point of sale)",
+        "rating": 2.5,
+        "price": 299,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "POS"
+        ],
+        "id": 18
+    },
+    "18" : {
+        "title": "Review Management",
+        "rating": 3,
+        "price": 699,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Review Management"
+        ],
+        "id": 19
+    },
+    "19" : {
+        "title": "Website (Static, CMS)",
+        "rating": 4.5,
+        "price": 1500,
+        "picture": "assets/images/products/product-1.jpg",
+        "category": [
+        "Website"
+        ],
+        "id": 20
+    }
+}

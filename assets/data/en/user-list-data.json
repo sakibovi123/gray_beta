@@ -1,0 +1,108 @@
+{
+    "data" : [
+        {
+            "name": "John Doe",
+            "designation": "Chief Technical Officer",
+            "joining-date": "2021-5-15",
+            "role": "Employee",
+            "status": "Active",
+            "id": 1 
+        },
+        {
+            "name": "Nicole Pearson",
+            "designation": "Managing Director",
+            "joining-date": "2021-6-20",
+            "role": "Manager",
+            "status": "Active",
+            "id": 2
+        },
+        {
+            "name": "Nick Smith",
+            "designation": "Marketing Officer",
+            "joining-date": "2020-7-24",
+            "role": "Guest",
+            "status": "Pending",
+            "id": 3
+        },
+        {
+            "name": "Tony Blair",
+            "designation": "Legal Officer",
+            "joining-date": "2019-1-21",
+            "role": "Authenticated User",
+            "status": "Pending",
+            "id": 4
+        },
+        {
+            "name": "Mike Hussey",
+            "designation": "Chief Financial Officer",
+            "joining-date": "2019-8-15",
+            "role": "Employee",
+            "status": "Pending",
+            "id": 5
+        },
+        {
+            "name": "Geoff Boycott",
+            "designation": "Operating Officer",
+            "joining-date": "2021-6-17",
+            "role": "Editor",
+            "status": "Pending",
+            "id": 6 
+        },
+        {
+            "name": "David Frost",
+            "designation": "Executive Officer",
+            "joining-date": "2021-4-19",
+            "role": "Employee",
+            "status": "Active",
+            "id": 7
+        },
+        {
+            "name": "Jacob Smith",
+            "designation": "Project Manager",
+            "joining-date": "2021-3-27",
+            "role": "Manager",
+            "status": "Active",
+            "id": 8
+        },
+        {
+            "name": "James Willium",
+            "designation": "Head of IT",
+            "joining-date": "2020-8-11",
+            "role": "Administrator",
+            "status": "Active",
+            "id": 9
+        },
+        {
+            "name": "Neel Johnson",
+            "designation": "Marketing Specialist",
+            "joining-date": "2020-10-17",
+            "role": "Employee",
+            "status": "Active",
+            "id": 10
+        },
+        {
+            "name": "George Bailey",
+            "designation": "Business Analyst",
+            "joining-date": "2020-6-10",
+            "role": "Guest",
+            "status": "Blocked",
+            "id": 11
+        },
+        {
+            "name": "Olive Carlos",
+            "designation": "Sales Representative",
+            "joining-date": "2019-2-12",
+            "role": "Employee",
+            "status": "Active",
+            "id": 12
+        },
+        {
+            "name": "Oscar Rhys",
+            "designation": "Chief Technical Officer",
+            "joining-date": "2021-5-15",
+            "role": "Staff",
+            "status": "Active",
+            "id": 13
+        }
+    ]
+}

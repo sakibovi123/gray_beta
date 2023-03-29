@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Contact Me</h2>
+        <form id="contact-form" method="post">
+            <p class="label">Full Name *</p>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <p class="label">Email *</p>
+            <input type="email" name="email" placeholder="Email" required>
+            <p class="label">Message *</p>
+            <textarea name="message" rows="6" placeholder="Type your message here" required></textarea>
+            <!-- A hidden div “alert” below to display the message received from server once form is submitted-->
+            <div id="alert"></div>
+            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+            <button id="submit-button" type="submit">Send Message</button>
+            <p class="google-message">This site is protected by reCAPTCHA and the Google
+                <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </p>
+        </form>
+    </div>
+    <script async src="https://www.google.com/recaptcha/api.js?render=6Le9NwohAAAAAFaQUqnUn6oZyoFFykDDueCNHNRj"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('#contact-form').submit(function(event) {
+            event.preventDefault(); // Prevent direct form submission
+            $('#alert').text('Processing...').fadeIn(0); // Display "Processing" to let the user know that the form is being submitted
+            grecaptcha.ready(function () {
+                grecaptcha.execute('6Le9NwohAAAAAFaQUqnUn6oZyoFFykDDueCNHNRj', { action: 'contact' }).then(function (token) {
+                    var recaptchaResponse = document.getElementById('recaptchaResponse');
+                    recaptchaResponse.value = token;
+                    // Make the Ajax call here
+                    $.ajax({
+                        url: 'contact.php',
+                        type: 'post',
+                        data: $('#contact-form').serialize(),
+                        dataType: 'json',
+                        success: function( _response ){
+                            // The Ajax request is a success. _response is a JSON object
+                            var error = _response.error;
+                            var success = _response.success;
+                            if(error != "") {
+                                // In case of error, display it to user
+                                $('#alert').html(error);
+                            }
+                            else {
+                                // In case of success, display it to user and remove the submit button
+                                $('#alert').html(success);
+                                $('#submit-button').remove();
+                            }
+                        },
+                        error: function(jqXhr, json, errorThrown){
+                            // In case of Ajax error too, display the result
+                            var error = jqXhr.responseText;
+                            $('#alert').html(error);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
